@@ -71,16 +71,16 @@ This will generate `tsne_perplexity_5.png`, `tsne_perplexity_10.png`, etc.
 t-SNE plots showing text (blue) and image (red) embeddings for different perplexity values:
 
 #### **Perplexity = 5**
-![Perplexity 5](plots/after_training_tsne_p5.png)
+<img src="plots/after_training_tsne_p5.png" width="400" />
 
 #### **Perplexity = 10**
-![Perplexity 10](plots/after_training_tsne_p10.png)
+<img src="plots/after_training_tsne_p10.png" width="400" />
 
 #### **Perplexity = 30 (Best)**
-![Perplexity 30](plots/after_training_tsne_p30.png)
+<img src="plots/after_training_tsne_p30.png" width="400" />
 
 #### **Perplexity = 50**
-![Perplexity 50](plots/after_training_tsne_p50.png)
+<img src="plots/after_training_tsne_p50.png" width="400" />
 
 ---
 
