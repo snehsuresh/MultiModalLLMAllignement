@@ -1,7 +1,7 @@
-# **Multimodal Alignment with Pretrained CLIP/BERT Embeddings**
+# **Variance-Aware Loss Scheduling For Multimodal Alignment In Low-Data Settings**
 
 ## **Overview**
-This repository presents a **multimodal alignment framework** that dynamically integrates **text and image embeddings** using both **custom-trained LSTM-CNN models** and **pretrained CLIP/BERT embeddings**. The goal is to **enhance text-image alignment** through **dynamic loss functions, contrastive learning, and visualization techniques**.
+This repository contains code, data, and results for our paper: "Variance-Aware Loss Scheduling For Multimodal Alignment In Low-Data Settings". We present a **multimodal alignment framework** that dynamically integrates **text and image embeddings** using both **custom-trained LSTM-CNN models** and **pretrained CLIP/BERT embeddings**. The goal is to **enhance text-image alignment** through **dynamic loss functions, contrastive learning, and visualization techniques**.
 
 Key Features:
 - **Switch betIen custom and pretrained embeddings** (LSTM-CNN vs. CLIP/BERT).
