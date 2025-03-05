@@ -1,0 +1,4 @@
+python main.py --use_pretrained --loss_strategy entropy
+python main.py --use_pretrained --loss_strategy cosine_spread
+python main.py --use_pretrained --loss_strategy variance
+python main.py --use_pretrained --loss_strategy fixed

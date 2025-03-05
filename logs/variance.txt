@@ -1,0 +1,236 @@
+python main.py --use_pretrained --loss_strategy variance
+/scratch3/workspace/spillai_umassd_edu-pfolio/pfolio_env/lib/python3.12/site-packages/open_clip/factory.py:388: UserWarning: These pretrained weights were trained with QuickGELU activation but the model config does not have that enabled. Consider using a model config with a "-quickgelu" suffix or enable with a flag.
+  warnings.warn(
+/scratch3/workspace/spillai_umassd_edu-pfolio/pfolio_env/lib/python3.12/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+Training on device: cuda | Using Pretrained: True | Loss Strategy: variance
+Epoch [1/30] Batch [10/63] Loss: 6.4963
+Epoch [1/30] Batch [20/63] Loss: 6.0277
+Epoch [1/30] Batch [30/63] Loss: 5.6300
+Epoch [1/30] Batch [40/63] Loss: 5.8324
+Epoch [1/30] Batch [50/63] Loss: 5.2191
+Epoch [1/30] Batch [60/63] Loss: 5.0474
+--- Epoch [1/30] Average Loss: 5.9528 ---
+Epoch [2/30] Batch [10/63] Loss: 4.8847
+Epoch [2/30] Batch [20/63] Loss: 4.3965
+Epoch [2/30] Batch [30/63] Loss: 4.2923
+Epoch [2/30] Batch [40/63] Loss: 4.6091
+Epoch [2/30] Batch [50/63] Loss: 4.2686
+Epoch [2/30] Batch [60/63] Loss: 3.6843
+--- Epoch [2/30] Average Loss: 4.3307 ---
+Epoch [3/30] Batch [10/63] Loss: 3.2638
+Epoch [3/30] Batch [20/63] Loss: 3.4408
+Epoch [3/30] Batch [30/63] Loss: 3.8995
+Epoch [3/30] Batch [40/63] Loss: 3.3685
+Epoch [3/30] Batch [50/63] Loss: 3.3488
+Epoch [3/30] Batch [60/63] Loss: 3.2556
+--- Epoch [3/30] Average Loss: 3.4970 ---
+Epoch [4/30] Batch [10/63] Loss: 2.7479
+Epoch [4/30] Batch [20/63] Loss: 3.3062
+Epoch [4/30] Batch [30/63] Loss: 2.6900
+Epoch [4/30] Batch [40/63] Loss: 2.9859
+Epoch [4/30] Batch [50/63] Loss: 3.0004
+Epoch [4/30] Batch [60/63] Loss: 2.4514
+--- Epoch [4/30] Average Loss: 3.0566 ---
+Epoch [5/30] Batch [10/63] Loss: 2.6034
+Epoch [5/30] Batch [20/63] Loss: 2.4461
+Epoch [5/30] Batch [30/63] Loss: 2.4162
+Epoch [5/30] Batch [40/63] Loss: 3.0233
+Epoch [5/30] Batch [50/63] Loss: 2.4717
+Epoch [5/30] Batch [60/63] Loss: 2.5926
+--- Epoch [5/30] Average Loss: 2.6075 ---
+Epoch [6/30] Batch [10/63] Loss: 2.5250
+Epoch [6/30] Batch [20/63] Loss: 2.6341
+Epoch [6/30] Batch [30/63] Loss: 2.2168
+Epoch [6/30] Batch [40/63] Loss: 2.4713
+Epoch [6/30] Batch [50/63] Loss: 2.1230
+Epoch [6/30] Batch [60/63] Loss: 2.2357
+--- Epoch [6/30] Average Loss: 2.3366 ---
+Epoch [7/30] Batch [10/63] Loss: 1.9959
+Epoch [7/30] Batch [20/63] Loss: 2.4011
+Epoch [7/30] Batch [30/63] Loss: 2.4213
+Epoch [7/30] Batch [40/63] Loss: 2.2826
+Epoch [7/30] Batch [50/63] Loss: 2.3622
+Epoch [7/30] Batch [60/63] Loss: 2.2267
+--- Epoch [7/30] Average Loss: 2.1703 ---
+Epoch [8/30] Batch [10/63] Loss: 1.8730
+Epoch [8/30] Batch [20/63] Loss: 1.6842
+Epoch [8/30] Batch [30/63] Loss: 2.1512
+Epoch [8/30] Batch [40/63] Loss: 2.0029
+Epoch [8/30] Batch [50/63] Loss: 1.9223
+Epoch [8/30] Batch [60/63] Loss: 1.8143
+--- Epoch [8/30] Average Loss: 1.9527 ---
+Epoch [9/30] Batch [10/63] Loss: 1.7302
+Epoch [9/30] Batch [20/63] Loss: 1.7393
+Epoch [9/30] Batch [30/63] Loss: 1.9275
+Epoch [9/30] Batch [40/63] Loss: 1.8482
+Epoch [9/30] Batch [50/63] Loss: 1.6005
+Epoch [9/30] Batch [60/63] Loss: 1.7070
+--- Epoch [9/30] Average Loss: 1.8171 ---
+Epoch [10/30] Batch [10/63] Loss: 1.4889
+Epoch [10/30] Batch [20/63] Loss: 1.6906
+Epoch [10/30] Batch [30/63] Loss: 1.9419
+Epoch [10/30] Batch [40/63] Loss: 1.7969
+Epoch [10/30] Batch [50/63] Loss: 1.5898
+Epoch [10/30] Batch [60/63] Loss: 1.3379
+--- Epoch [10/30] Average Loss: 1.6612 ---
+Epoch [11/30] Batch [10/63] Loss: 1.4744
+Epoch [11/30] Batch [20/63] Loss: 1.5116
+Epoch [11/30] Batch [30/63] Loss: 1.5681
+Epoch [11/30] Batch [40/63] Loss: 1.6849
+Epoch [11/30] Batch [50/63] Loss: 1.4354
+Epoch [11/30] Batch [60/63] Loss: 1.1667
+--- Epoch [11/30] Average Loss: 1.5736 ---
+Epoch [12/30] Batch [10/63] Loss: 1.3304
+Epoch [12/30] Batch [20/63] Loss: 1.6131
+Epoch [12/30] Batch [30/63] Loss: 1.9714
+Epoch [12/30] Batch [40/63] Loss: 1.7414
+Epoch [12/30] Batch [50/63] Loss: 1.5238
+Epoch [12/30] Batch [60/63] Loss: 1.1926
+--- Epoch [12/30] Average Loss: 1.5301 ---
+Epoch [13/30] Batch [10/63] Loss: 1.5506
+Epoch [13/30] Batch [20/63] Loss: 1.5813
+Epoch [13/30] Batch [30/63] Loss: 1.7183
+Epoch [13/30] Batch [40/63] Loss: 1.6713
+Epoch [13/30] Batch [50/63] Loss: 1.1817
+Epoch [13/30] Batch [60/63] Loss: 1.4992
+--- Epoch [13/30] Average Loss: 1.3987 ---
+Epoch [14/30] Batch [10/63] Loss: 1.2905
+Epoch [14/30] Batch [20/63] Loss: 1.4280
+Epoch [14/30] Batch [30/63] Loss: 1.5311
+Epoch [14/30] Batch [40/63] Loss: 1.2823
+Epoch [14/30] Batch [50/63] Loss: 1.2998
+Epoch [14/30] Batch [60/63] Loss: 1.2931
+--- Epoch [14/30] Average Loss: 1.3083 ---
+Epoch [15/30] Batch [10/63] Loss: 1.4757
+Epoch [15/30] Batch [20/63] Loss: 1.1355
+Epoch [15/30] Batch [30/63] Loss: 1.3431
+Epoch [15/30] Batch [40/63] Loss: 1.3915
+Epoch [15/30] Batch [50/63] Loss: 1.1431
+Epoch [15/30] Batch [60/63] Loss: 1.4689
+--- Epoch [15/30] Average Loss: 1.2942 ---
+Epoch [16/30] Batch [10/63] Loss: 1.3313
+Epoch [16/30] Batch [20/63] Loss: 1.2149
+Epoch [16/30] Batch [30/63] Loss: 1.0621
+Epoch [16/30] Batch [40/63] Loss: 1.1304
+Epoch [16/30] Batch [50/63] Loss: 1.5571
+Epoch [16/30] Batch [60/63] Loss: 1.2752
+--- Epoch [16/30] Average Loss: 1.2282 ---
+Epoch [17/30] Batch [10/63] Loss: 1.1349
+Epoch [17/30] Batch [20/63] Loss: 1.0006
+Epoch [17/30] Batch [30/63] Loss: 1.0658
+Epoch [17/30] Batch [40/63] Loss: 1.1854
+Epoch [17/30] Batch [50/63] Loss: 1.3474
+Epoch [17/30] Batch [60/63] Loss: 1.4024
+--- Epoch [17/30] Average Loss: 1.1560 ---
+Epoch [18/30] Batch [10/63] Loss: 1.1505
+Epoch [18/30] Batch [20/63] Loss: 1.1900
+Epoch [18/30] Batch [30/63] Loss: 0.8493
+Epoch [18/30] Batch [40/63] Loss: 1.2164
+Epoch [18/30] Batch [50/63] Loss: 0.7875
+Epoch [18/30] Batch [60/63] Loss: 1.1855
+--- Epoch [18/30] Average Loss: 1.1066 ---
+Epoch [19/30] Batch [10/63] Loss: 0.9482
+Epoch [19/30] Batch [20/63] Loss: 1.0596
+Epoch [19/30] Batch [30/63] Loss: 1.1498
+Epoch [19/30] Batch [40/63] Loss: 0.7787
+Epoch [19/30] Batch [50/63] Loss: 1.2244
+Epoch [19/30] Batch [60/63] Loss: 1.0860
+--- Epoch [19/30] Average Loss: 1.0287 ---
+Epoch [20/30] Batch [10/63] Loss: 0.9904
+Epoch [20/30] Batch [20/63] Loss: 1.2492
+Epoch [20/30] Batch [30/63] Loss: 1.0278
+Epoch [20/30] Batch [40/63] Loss: 0.7589
+Epoch [20/30] Batch [50/63] Loss: 1.5613
+Epoch [20/30] Batch [60/63] Loss: 0.8440
+--- Epoch [20/30] Average Loss: 1.0161 ---
+Epoch [21/30] Batch [10/63] Loss: 0.9480
+Epoch [21/30] Batch [20/63] Loss: 1.0154
+Epoch [21/30] Batch [30/63] Loss: 0.9466
+Epoch [21/30] Batch [40/63] Loss: 0.9272
+Epoch [21/30] Batch [50/63] Loss: 1.0238
+Epoch [21/30] Batch [60/63] Loss: 1.1113
+--- Epoch [21/30] Average Loss: 0.9666 ---
+Epoch [22/30] Batch [10/63] Loss: 0.9481
+Epoch [22/30] Batch [20/63] Loss: 0.7643
+Epoch [22/30] Batch [30/63] Loss: 0.9740
+Epoch [22/30] Batch [40/63] Loss: 0.8943
+Epoch [22/30] Batch [50/63] Loss: 1.2707
+Epoch [22/30] Batch [60/63] Loss: 1.1296
+--- Epoch [22/30] Average Loss: 0.9627 ---
+Epoch [23/30] Batch [10/63] Loss: 0.8174
+Epoch [23/30] Batch [20/63] Loss: 1.4022
+Epoch [23/30] Batch [30/63] Loss: 0.9892
+Epoch [23/30] Batch [40/63] Loss: 0.9574
+Epoch [23/30] Batch [50/63] Loss: 0.8022
+Epoch [23/30] Batch [60/63] Loss: 0.8522
+--- Epoch [23/30] Average Loss: 0.9214 ---
+Epoch [24/30] Batch [10/63] Loss: 0.6881
+Epoch [24/30] Batch [20/63] Loss: 0.7983
+Epoch [24/30] Batch [30/63] Loss: 0.7583
+Epoch [24/30] Batch [40/63] Loss: 0.9755
+Epoch [24/30] Batch [50/63] Loss: 0.9282
+Epoch [24/30] Batch [60/63] Loss: 0.6856
+--- Epoch [24/30] Average Loss: 0.8793 ---
+Epoch [25/30] Batch [10/63] Loss: 0.7835
+Epoch [25/30] Batch [20/63] Loss: 0.6919
+Epoch [25/30] Batch [30/63] Loss: 0.6786
+Epoch [25/30] Batch [40/63] Loss: 0.6990
+Epoch [25/30] Batch [50/63] Loss: 0.9140
+Epoch [25/30] Batch [60/63] Loss: 0.8329
+--- Epoch [25/30] Average Loss: 0.8623 ---
+Epoch [26/30] Batch [10/63] Loss: 0.6648
+Epoch [26/30] Batch [20/63] Loss: 0.7995
+Epoch [26/30] Batch [30/63] Loss: 0.7570
+Epoch [26/30] Batch [40/63] Loss: 0.8305
+Epoch [26/30] Batch [50/63] Loss: 0.7967
+Epoch [26/30] Batch [60/63] Loss: 1.0388
+--- Epoch [26/30] Average Loss: 0.8572 ---
+Epoch [27/30] Batch [10/63] Loss: 0.9091
+Epoch [27/30] Batch [20/63] Loss: 0.8256
+Epoch [27/30] Batch [30/63] Loss: 0.9448
+Epoch [27/30] Batch [40/63] Loss: 0.5946
+Epoch [27/30] Batch [50/63] Loss: 0.8701
+Epoch [27/30] Batch [60/63] Loss: 0.7823
+--- Epoch [27/30] Average Loss: 0.8010 ---
+Epoch [28/30] Batch [10/63] Loss: 0.6185
+Epoch [28/30] Batch [20/63] Loss: 0.7532
+Epoch [28/30] Batch [30/63] Loss: 0.9025
+Epoch [28/30] Batch [40/63] Loss: 0.5453
+Epoch [28/30] Batch [50/63] Loss: 0.6149
+Epoch [28/30] Batch [60/63] Loss: 0.5737
+--- Epoch [28/30] Average Loss: 0.7986 ---
+Epoch [29/30] Batch [10/63] Loss: 0.6461
+Epoch [29/30] Batch [20/63] Loss: 0.9797
+Epoch [29/30] Batch [30/63] Loss: 1.0550
+Epoch [29/30] Batch [40/63] Loss: 0.6716
+Epoch [29/30] Batch [50/63] Loss: 0.9755
+Epoch [29/30] Batch [60/63] Loss: 0.7077
+--- Epoch [29/30] Average Loss: 0.7964 ---
+Epoch [30/30] Batch [10/63] Loss: 0.5648
+Epoch [30/30] Batch [20/63] Loss: 0.7343
+Epoch [30/30] Batch [30/63] Loss: 0.6027
+Epoch [30/30] Batch [40/63] Loss: 0.7956
+Epoch [30/30] Batch [50/63] Loss: 0.5986
+Epoch [30/30] Batch [60/63] Loss: 0.8974
+--- Epoch [30/30] Average Loss: 0.7373 ---
+
+Verifying Alignment:
+
+Sample Cosine Similarity (Text-Image) for first 10 samples:
+[0.44953746 0.54038453 0.5443027  0.581934   0.4884971  0.6790966
+ 0.60410833 0.6364426  0.54624534 0.56054497]
+
+Cosine Similarity Matrix (first 5 samples):
+[[ 0.4495375  -0.01923584 -0.2902211   0.12654507  0.26242983]
+ [-0.05738773  0.5403846  -0.16792583  0.17354721  0.06043636]
+ [-0.2895235  -0.19975461  0.5443027  -0.2276776  -0.15706143]
+ [ 0.1182519   0.08407997 -0.1484353   0.58193403  0.03654437]
+ [ 0.11937594  0.13318154 -0.28236032  0.01566843  0.4884971 ]]
+Retrieval Metrics: {'R@1': 1.0, 'R@5': 1.0, 'R@10': 1.0}
+
+Running Stress Test (with injected noise):
+Stress Test Results:
+Clean Loss: 0.5622
+Noisy Loss: 0.6692
+Model saved as multimodal_model.pth
