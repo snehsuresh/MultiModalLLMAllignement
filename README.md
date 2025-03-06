@@ -1,5 +1,8 @@
 # **Variance-Aware Loss Scheduling For Multimodal Alignment In Low-Data Settings**
 
+[Visit arXiv](https://arxiv.org/abs/2503.03202)
+
+
 ## **Overview**
 This repository contains code, data, and results for our paper: "Variance-Aware Loss Scheduling For Multimodal Alignment In Low-Data Settings". We present a **multimodal alignment framework** that dynamically integrates **text and image embeddings** using both **custom-trained LSTM-CNN models** and **pretrained CLIP/BERT embeddings**. The goal is to **enhance text-image alignment** through **dynamic loss functions, contrastive learning, and visualization techniques**.
 
